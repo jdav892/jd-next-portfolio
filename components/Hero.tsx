@@ -1,6 +1,8 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
+import MagicButton from './MagicButton';
+import { FaLocationArrow } from 'react-icons/fa';
 
 
 const Hero = () => {
@@ -18,15 +20,22 @@ const Hero = () => {
         <div className="flex justify-center relative my-20 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[] flex flex-col items-center justify-center">
             <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-              Performant and Dynamic Web Applications
+             👋 I&apos;m Justin, a Software Engineer based in Florida, US
             </h2>
             <TextGenerateEffect
-              className="text-center text-[40px] md:text-5xl lg:text-6xl"
+              className="text-center text-[40px] md:text-5xl lg:text-4xl"
               words="Transforming Concepts into Seamless User Experiences"
             />
-            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            👋 I&apos;m Justin, a Software Engineer specializing in <br/>Full-Stack Web Development
-            </p>           
+            <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl pt-3">
+             Specializing in Full-Stack Web Development to build Dynamic and Robust Web Applications
+            </p>
+            <a href="#about">
+              <MagicButton 
+                title="My Work"
+                icon={<FaLocationArrow />}
+                position="right" 
+              />
+            </a>           
           </div>
         </div>
     </div>
