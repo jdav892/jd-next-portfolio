@@ -28,8 +28,8 @@ export const gridItems = [
     },
     {
         id: 3,
-        title: "My tech stack",
-        description: "I'm constantly learning",
+        title: "My tech stack:",
+        description: "I'm constantly learning.",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Solution oriented tech enthusiast",
+        title: "Detail oriented tech enthusiast",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -48,8 +48,8 @@ export const gridItems = [
     },
     {
         id: 5,
-        title: "Currently: Olympic Weightlifting Exercise Library(RESTful API)",
-        description: "Under the Hood",
+        title: "Building an Olympic Weightlifting Exercise Library",
+        description: "Under the Hood:",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
