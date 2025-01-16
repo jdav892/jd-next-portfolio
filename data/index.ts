@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize client collaboration, fostering open lines of communication",
+        title: "I prioritize collaboration to foster open lines of communication",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
@@ -48,7 +48,7 @@ export const gridItems = [
     },
     {
         id: 5,
-        title: "Currently: building a Sports Data API",
+        title: "Currently: Olympic Weightlifting Exercise Library(RESTful API)",
         description: "Under the Hood",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -71,30 +71,22 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "Project Management Application",
+        title: "(Full-Stack)Project Management Application",
         des: "A project management app that supports timelines, visualizes tasks and projects, aids in collaboration to drive efficiency across teams.",
         img: "",
         iconLists: [],
         link: "",
     },
-     {
+    {
         id: 2,
-        title: "Chatbot Landing Page",
-        des: "Handcrafted landing page template for an AI chat bot.",
+        title: "(Automation/Backend)NBA Stat Scrapers",
+        des: "Web crawlers powered by Selenium using Python that email client list with personalized insights",
         img: "",
         iconLists: [],
-        link: "",
+        link: "", 
     },
      {
         id: 3,
-        title: "Metaverse Gaming Platform Page",
-        des: "Template landing page for a Metaverse gaming platform.",
-        img: "",
-        iconLists: [],
-        link: "",
-    },
-     {
-        id: 4,
         title: "Sign language translations with Tensorflow",
         des: "Converted a python tensorflow model to tensorflow.js, hosted on IBM cloud to be displayed and interacted with using React.js and the canvas element.",
         img: "",
@@ -102,21 +94,38 @@ export const projects = [
         link: "",
     },
      {
-        id: 5,
-        title: "Chatter",
+        id: 4,
+        title: "(Full-Stack)Chatter",
         des: "Live chat application, utilizing sockets.io to manage the opening and closing of web sockets between users",
         img: "",
         iconLists: [],
         link: "",
     }, 
     {
-        id: 6,
+        id: 5,
         title: "Crypt of the Void Millenia",
-        des: "A roguelike dungeon runner built with ASCII characters, using tcod/numpy/pickle/lzma/",
+        des: "A roguelike dungeon runner built with ASCII characters, using tcod/numpy/pickle/lzma",
         img: "",
         iconLists: [],
         link: "",
     },
+     {
+        id: 6,
+        title: "(Frontend)Chatbot Landing Page",
+        des: "Handcrafted landing page template for an AI chat bot.",
+        img: "",
+        iconLists: [],
+        link: "",
+    },
+     {
+        id: 7,
+        title: "(Frontend)Metaverse Gaming Platform Page",
+        des: "Template landing page for a Metaverse gaming platform.",
+        img: "",
+        iconLists: [],
+        link: "",
+    },
+    
 ];
 
 

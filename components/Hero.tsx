@@ -27,7 +27,7 @@ const Hero = () => {
               words="Transforming Concepts into Seamless User Experiences"
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl pt-3">
-             Specializing in Full-Stack Web Development to build Dynamic and Robust Web Applications
+             Specializing in Full-Stack Web Development to build Dynamic and Robust Applications
             </p>
             <a href="#about">
               <MagicButton 
