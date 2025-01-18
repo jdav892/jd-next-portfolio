@@ -110,10 +110,10 @@ export const BentoGridItem = ({
                   {item}
                 </span>
               ))}
-              <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
+              <span className="py-4 px-3 rounded-lg text-center bg-black-200"/>
             </div>
             <div className=" flex flex-col gap-3 lg:gap-8">
-              <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]"/>
+              <span className="py-4 px-3 rounded-lg text-center bg-black-200"/>
               {['Node.js', 'Flask', 'MongoDB', 'React.js'].map((item) => (
                 <span key={item} className="py-2 lg:py-2 lg:px-3.5 px-3 text-xs lg:text-base opacity-50 lg:opacity-75 rounded-lg text-center bg-[#10132E]">
                   {item}

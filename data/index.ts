@@ -74,7 +74,7 @@ export const projects = [
         title: "(Full-Stack)Project Management Application",
         des: "A project management app that supports timelines, visualizes tasks and projects, aids in collaboration to drive efficiency across teams.",
         img: "",
-        iconLists: [],
+        iconLists: ["/next.svg","/Typescript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/PostgresSQL.svg"],
         link: "",
     },
     {
@@ -82,7 +82,7 @@ export const projects = [
         title: "(Full-Stack)Chatter",
         des: "Live chat application, utilizing sockets.io to manage the opening and closing of web sockets between users",
         img: "",
-        iconLists: [],
+        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/MongoDB.svg"],
         link: "",
     },
     {
@@ -90,15 +90,15 @@ export const projects = [
         title: "(Automation/Backend)NBA Statistics Web Scraping and Reporting",
         des: "Web crawlers powered by Selenium using Python that email client list with personalized insights",
         img: "",
-        iconLists: [],
+        iconLists: ["/Python.svg", "/Selenium.svg", "/Flask.svg", "/Docker.svg"],
         link: "", 
     },
      {
         id: 4,
         title: "(Frontend/ML)Sign Language Translations with Tensorflow",
-        des: "Converted a python tensorflow model to tensorflow.js, hosted on IBM cloud to be displayed and interacted with using React.js and the canvas element.",
+        des: "Converted a Python Tensorflow model to Tensorflow.js, hosted on IBM cloud to be displayed and interacted with using React.js and the canvas element.",
         img: "",
-        iconLists: [],
+        iconLists: ["/React.svg", "/Python.svg", "/Tensorflow.svg"],
         link: "",
     },
      {
@@ -106,7 +106,7 @@ export const projects = [
         title: "(Frontend)AI Chatbot Landing Page",
         des: "Handcrafted landing page template for an AI chat bot.",
         img: "",
-        iconLists: [],
+        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Heroku.svg"],
         link: "",
     },
      {
@@ -114,7 +114,7 @@ export const projects = [
         title: "(Frontend)Metaverse Gaming Platform Page",
         des: "Template landing page for a Metaverse gaming platform.",
         img: "",
-        iconLists: [],
+        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Heroku.svg"],
         link: "",
     },
     
