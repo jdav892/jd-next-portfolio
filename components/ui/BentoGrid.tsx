@@ -64,7 +64,7 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: 'rgb(0,0, 0)',
+        background: 'rgb(0,0,0)',
         backgroundColor: 'linear-gradient(18deg, rgba(2,0,36,1) 0%, rgba(255,106,0,1) 0%, rgba(64,27,0,1) 18%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%)'
       }}
     >
@@ -136,7 +136,7 @@ export const BentoGridItem = ({
                 />
               </div>
               <MagicButton 
-                 title={copied ? 'Email copied!' : 'Copy my email'}
+                 title={copied ? 'Email copied!' : 'Copy my e-mail'}
                  icon={<IoCopyOutline />}
                  position="left"
                  otherClasses="!bg-black"
