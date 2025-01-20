@@ -1,7 +1,7 @@
 export const navItems = [
     {name: "About", link: "#about"},
     {name: "Projects", link: "#projects"},
-    {name: "Testimonials", link: "#testimonials"},
+    {name: "Experience", link: "#"},
     {name: "Contact", link: "#contact"},
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
     {
         id: 5,
         title: "Learning Rust to build a Real Time Processing Engine",
-        description: "Under the Hood:",
+        description: "Currently:",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -75,7 +75,7 @@ export const projects = [
         des: "A project management app that supports timelines, visualizes tasks and projects, aids in collaboration to drive efficiency across teams.",
         img: "",
         iconLists: ["/next.svg","/Typescript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/PostgresSQL.svg"],
-        link: "",
+        link: "https://github.com/jdav892/pm-exp",
     },
     {
         id: 2,
@@ -83,7 +83,7 @@ export const projects = [
         des: "Live chat application, utilizing sockets.io to manage the opening and closing of web sockets between users",
         img: "",
         iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/MongoDB.svg"],
-        link: "",
+        link: "https://chatter-app-1hc0.onrender.com/",
     },
     {
         id: 3,
@@ -91,7 +91,7 @@ export const projects = [
         des: "Web crawlers powered by Selenium using Python that email client list with personalized insights",
         img: "",
         iconLists: ["/Selenium.svg", "/Python.svg", "/Flask.svg", "/Docker.svg"],
-        link: "", 
+        link: "https://github.com/jdav892/nbascripts", 
     },
      {
         id: 4,
@@ -99,7 +99,7 @@ export const projects = [
         des: "Converted a Python Tensorflow model to Tensorflow.js, hosted on IBM cloud to be displayed and interacted with using React.js and the canvas element.",
         img: "",
         iconLists: ["/Python.svg", "/React.svg", "/Tensorflow.svg"],
-        link: "",
+        link: "https://github.com/jdav892/asl-with-tensorflow",
     },
      {
         id: 5,
@@ -107,7 +107,7 @@ export const projects = [
         des: "Handcrafted landing page template for an AI chat bot.",
         img: "",
         iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Hostinger.svg"],
-        link: "",
+        link: "https://brain-wave.zen-testing.com/",
     },
      {
         id: 6,
@@ -115,7 +115,7 @@ export const projects = [
         des: "Template landing page for a Metaverse gaming platform.",
         img: "",
         iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Hostinger.svg"],
-        link: "",
+        link: "https://zen-testing.com/",
     },
     
 ];
@@ -194,31 +194,31 @@ export const companies = [
 
 ];
 
-export const technicalInterests = [
+export const experience = [
     {
         id: 1,
-        title: "Frontend Technologies",
+        title: "Frontend Developer",
         desc: "description",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Distributed Systems",
+        title: "Automation/Backend Engineer",
         desc: "description",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 3,
-        title: "3D Graphics",
+        title: "Full Stack Developer",
         desc: "description",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 4,
-        title: "Game Development",
+        title: "System Architect",
         desc: "description",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",

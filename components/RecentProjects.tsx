@@ -1,14 +1,11 @@
 import React from 'react'
 import { projects } from '@/data'
-import { title } from 'process'
-import { img } from 'framer-motion/client'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
 
 const RecentProjects = () => {
   return (
-    <section id="#projects">
-    <div className="py-20">
+    <div className="py-20" id="projects">
         <h1 className="heading">
             List of <span className="text-aqua">Recent Projects</span>
         </h1>
@@ -16,7 +13,7 @@ const RecentProjects = () => {
             {projects.map(({ id, title, des, img, iconLists,link }) => (
                 <div key={id} className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]">
                     <PinContainer title={title} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh]'>
+                        <div className='relative flex items-center justify-center sm:w-96 w-[100vw] overflow-hidden h-[30vh]'>
                             <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-black">
                                 <img src="/bg.png" alt="bg-img" />
                             </div>
@@ -41,7 +38,7 @@ const RecentProjects = () => {
                                 ))}
                             </div>
                             <div className="flex justify-center items-center">
-                                <p className="flex lg:text-md md:text-xs text-sm text-purple">Hover for link</p>
+                                <p className="flex lg:text-md md:text-xs text-sm text-purple">Click for more</p>
                                 <FaLocationArrow className="ms-3" color="#CBAFC9"/>
                             </div>
                         </div>
@@ -50,7 +47,6 @@ const RecentProjects = () => {
             ))}
         </div>
     </div>
-    </section>
   )
 }
 
