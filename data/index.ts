@@ -90,7 +90,7 @@ export const projects = [
         title: "(Automation/Backend)NBA Statistics Web Scraping and Reporting",
         des: "Web crawlers powered by Selenium using Python that email client list with personalized insights",
         img: "",
-        iconLists: ["/Python.svg", "/Selenium.svg", "/Flask.svg", "/Docker.svg"],
+        iconLists: ["/Selenium.svg", "/Python.svg", "/Flask.svg", "/Docker.svg"],
         link: "", 
     },
      {
@@ -98,7 +98,7 @@ export const projects = [
         title: "(Frontend/ML)Sign Language Translations with Tensorflow",
         des: "Converted a Python Tensorflow model to Tensorflow.js, hosted on IBM cloud to be displayed and interacted with using React.js and the canvas element.",
         img: "",
-        iconLists: ["/React.svg", "/Python.svg", "/Tensorflow.svg"],
+        iconLists: ["/Python.svg", "/React.svg", "/Tensorflow.svg"],
         link: "",
     },
      {
@@ -106,7 +106,7 @@ export const projects = [
         title: "(Frontend)AI Chatbot Landing Page",
         des: "Handcrafted landing page template for an AI chat bot.",
         img: "",
-        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
+        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Hostinger.svg"],
         link: "",
     },
      {
@@ -114,7 +114,7 @@ export const projects = [
         title: "(Frontend)Metaverse Gaming Platform Page",
         des: "Template landing page for a Metaverse gaming platform.",
         img: "",
-        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
+        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Hostinger.svg"],
         link: "",
     },
     
