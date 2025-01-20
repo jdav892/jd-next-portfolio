@@ -18,7 +18,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm very flexible with time zone communications",
+        title: "I'm extremely flexible in terms of distributed collaboration",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -38,7 +38,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Detail oriented tech enthusiast",
+        title: "A detail oriented tech enthusiast",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -48,7 +48,7 @@ export const gridItems = [
     },
     {
         id: 5,
-        title: "Building an Olympic Weightlifting Exercise Library",
+        title: "Learning Rust to build a Real Time Processing Engine",
         description: "Under the Hood:",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -106,7 +106,7 @@ export const projects = [
         title: "(Frontend)AI Chatbot Landing Page",
         des: "Handcrafted landing page template for an AI chat bot.",
         img: "",
-        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Heroku.svg"],
+        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
         link: "",
     },
      {
@@ -114,7 +114,7 @@ export const projects = [
         title: "(Frontend)Metaverse Gaming Platform Page",
         des: "Template landing page for a Metaverse gaming platform.",
         img: "",
-        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Heroku.svg"],
+        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
         link: "",
     },
     
