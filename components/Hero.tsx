@@ -24,7 +24,7 @@ const Hero = () => {
             </h2>
             <TextGenerateEffect
               className="text-center text-[40px] md:text-5xl lg:text-4xl"
-              words="Engineering Concepts into Seamless Experiences"
+              words={`Engineering Solutions for the Everyday User`}
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl pt-3">
              Specializing in Full-Stack Web Development to Build Dynamic and Robust Applications

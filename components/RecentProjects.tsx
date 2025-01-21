@@ -38,8 +38,8 @@ const RecentProjects = () => {
                                 ))}
                             </div>
                             <div className="flex justify-center items-center">
-                                <p className="flex lg:text-md md:text-xs text-sm text-purple">Click for more</p>
-                                <FaLocationArrow className="ms-3" color="#CBAFC9"/>
+                                <p className="flex lg:text-md md:text-xs text-sm text-white">Click for more</p>
+                                <FaLocationArrow className="ms-3" color="aqua"/>
                             </div>
                         </div>
                     </PinContainer>
