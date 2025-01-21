@@ -1,7 +1,7 @@
 export const navItems = [
     {name: "About", link: "#about"},
     {name: "Projects", link: "#projects"},
-    {name: "Reviews", link: "#Reviews"},
+    {name: "Reviews", link: "#reviews"},
     {name: "Contact", link: "#contact"},
 ];
 
@@ -18,7 +18,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I'm extremely flexible in terms of distributed collaboration",
+        title: "Flexible in terms of distributed collaboration",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -124,39 +124,21 @@ export const projects = [
 export const reviews = [
     {
         quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        name: "Someone",
-        title: "Title"
+        "Through our work on a cross platform image compression solution, Justin displayed a type of determined and self starting attitude which can't be ignored. For any company seeking a developer determined to find solutions to their problems, I suggest reaching out to Justin about potential opportunities.",
+        name: "Alex Hochheiden",
+        title: "Software Engineer - Mozilla"
     },
      {
         quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        name: "Someone",
-        title: "Title"
+        "Having Known him for years through other mediums, getting to know Justin as an engineer while discussing game engine system design was illuminating as to how considerate he is of the minute details that seem hidden to most, yet are as bright as the sun to him.",
+        name: "Will Wharton",
+        title: "Software Engineer - Opendoor"
     },
      {
         quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        name: "Someone",
-        title: "Title"
-    },
-    {
-        quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        name: "Someone",
-        title: "Title"
-    },
-     {
-        quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        name: "Someone",
-        title: "Title"
-    },
-     {
-        quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        name: "Someone",
-        title: "Title"
+        "Collaborating with Justin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Justin's enthusiasm for every facet of development truly stands out. If you're seeking a driven and passionate developer, Justin is that developer.",
+        name: "Darshay Blount",
+        title: "Data Analyst - Disney"
     },
 ];
 

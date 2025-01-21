@@ -14,12 +14,13 @@ const Clients = () => {
             </span>
         </h1>
         <div className="flex flex-col items-center">
-            <InfiniteMovingCards 
-                items={reviews}
-                direction="right"
-                speed="slow"
-            />
-
+            <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden">   
+                <InfiniteMovingCards 
+                    items={reviews}
+                    direction="right"
+                    speed="slow"
+                />
+            </div>
         </div>
     </div>
   )
