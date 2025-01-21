@@ -7,14 +7,14 @@ import { reviews } from "@/data"
 
 const Clients = () => {
   return (
-    <div className="py-20" id="reviews">
+    <div className="py-50" id="reviews">
         <h1 className="heading">
             Reviews from {' '}
             <span className="text-aqua">Past Collaborations
             </span>
         </h1>
         <div className="flex flex-col items-center">
-            <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden">   
+            <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden pt-12">   
                 <InfiniteMovingCards 
                     items={reviews}
                     direction="right"
