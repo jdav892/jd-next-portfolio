@@ -1,7 +1,7 @@
 export const navItems = [
     {name: "About", link: "#about"},
     {name: "Projects", link: "#projects"},
-    {name: "Experience", link: "#"},
+    {name: "Reviews", link: "#Reviews"},
     {name: "Contact", link: "#contact"},
 ];
 
@@ -121,7 +121,7 @@ export const projects = [
 ];
 
 
-export const testimonials = [
+export const reviews = [
     {
         quote:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
