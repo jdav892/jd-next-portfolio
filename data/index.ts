@@ -188,7 +188,7 @@ export const experience = [
     {
         id: 2,
         title: "Backend Engineer",
-        desc: "Created REST API endpoints, and engineered systems of web crawlers to feed databases for to perform analysis and develop tooling around.",
+        desc: "Created REST API endpoints, and engineered systems of web crawlers to feed databases for analysis and to develop tooling around.",
         className: "md:col-span-2",
         thumbnail: "/network.svg",
     },
