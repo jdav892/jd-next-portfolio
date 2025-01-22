@@ -9,7 +9,11 @@ const Hobbies = () => {
       About <span className="text-aqua">Me</span>
     </h1>
     <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
-      <Card title="Munni is Aditi" icon={<AceternityIcon />}>
+      <Card 
+      title="Bio" 
+      icon={<AceternityIcon />}
+      des="" 
+      >
         <CanvasRevealEffect
           animationSpeed={3}
           containerClassName="bg-sky-600"
