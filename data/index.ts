@@ -130,7 +130,7 @@ export const reviews = [
     },
      {
         quote:
-        "Having Known him for years through other mediums, getting to know Justin as an engineer while discussing game engine system design was illuminating as to how considerate he is of the minute details that seem hidden to most, yet are as bright as the sun to him.",
+        "Having known him for years through other mediums, getting to know Justin as an engineer while discussing game engine system design was illuminating as to how considerate he is of the minute details that seem hidden to most, yet are as bright as the sun to him.",
         name: "Will Wharton",
         title: "Software Engineer - Opendoor"
     },
@@ -180,28 +180,28 @@ export const experience = [
     {
         id: 1,
         title: "Frontend Developer",
-        desc: "description",
+        desc: "Designed and implemented re-usable UI components for client facing software to drive user engagement, and retention.",
         className: "md:col-span-2",
         thumbnail: "/frontend.svg",
     },
     {
         id: 2,
         title: "Backend Engineer",
-        desc: "description",
+        desc: "Created REST API endpoints, and engineered systems of web crawlers to feed databases for to perform analysis and develop tooling around.",
         className: "md:col-span-2",
         thumbnail: "/network.svg",
     },
     {
         id: 3,
         title: "Full Stack Developer",
-        desc: "description",
+        desc: "Planned and implemented and maintained robust web applications from end to end with scalability and stability in mind.",
         className: "md:col-span-2",
         thumbnail: "/bp.svg",
     },
     {
         id: 4,
         title: "Web Developer",
-        desc: "description",
+        desc: "Through client outreach, created websites to drive user traffic and prioritized accessibility so that information is easily consumable.",
         className: "md:col-span-2",
         thumbnail: "/webd.svg",
     },
