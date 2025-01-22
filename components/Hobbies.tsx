@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 const Hobbies = () => {
   return (
-  <section className="w-full py-20">
+  <section className="w-full py-20" id="bio">
     <h1 className="heading">
       About <span className="text-aqua">Me</span>
     </h1>
