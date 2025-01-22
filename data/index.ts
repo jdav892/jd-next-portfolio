@@ -48,7 +48,7 @@ export const gridItems = [
     },
     {
         id: 5,
-        title: "Building an Olympic Weightlifting Exercise Library(RESTful API)",
+        title: "Learning Go while Building an Olympic Weightlifting Exercise Library(RESTful API)",
         description: "Currently:",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -201,7 +201,7 @@ export const experience = [
     {
         id: 4,
         title: "Web Developer",
-        desc: "Through client outreach, created websites to drive user traffic and prioritized accessibility so that information is easily consumable.",
+        desc: "Through client outreach, created websites to drive user traffic and prioritized accessibility to push a quality user experience to the forefront.",
         className: "md:col-span-2",
         thumbnail: "/webd.svg",
     },
