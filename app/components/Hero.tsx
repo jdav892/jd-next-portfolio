@@ -29,7 +29,7 @@ const Hero = () => {
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl pt-3">
              Specializing in Full-Stack Web Development to Build Dynamic and Robust Applications
             </p>
-            <a href="">
+            <a href="https://github.com/jdav892">
               <MagicButton 
                 title="My Work"
                 icon={<FaLocationArrow />}

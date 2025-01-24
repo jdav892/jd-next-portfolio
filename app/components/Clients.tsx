@@ -1,9 +1,8 @@
 "use client"
 import React from 'react'
 
-import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
-import { reviews } from "@/data"
+import { reviews } from "@/app/data"
 
 const Clients = () => {
   return (

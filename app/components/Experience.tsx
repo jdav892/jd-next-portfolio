@@ -1,5 +1,5 @@
 import React from 'react'
-import { experience } from "@/data/index"
+import { experience } from "@/app/data/index"
 import { Button } from "./ui/MovingBorders"
 
 const Experience = () => {

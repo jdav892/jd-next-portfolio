@@ -1,10 +1,10 @@
 'use client';
-import { cn } from "@/utils/cn";
+import { cn } from "@/app/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
-import animationData from "@/data/sasagayo.json"
+import animationData from "@/app/data/sasagayo.json"
 import MagicButton from "../MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 
@@ -31,8 +31,6 @@ export const BentoGridItem = ({
   className,
   title,
   description,
-  header,
-  icon,
   id,
   img,
   imgClassName,

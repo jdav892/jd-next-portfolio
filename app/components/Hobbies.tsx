@@ -1,5 +1,5 @@
 import React from 'react'
-import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
+import { CanvasRevealEffect } from "@/app/components/ui/CanvasRevealEffect";
 import { AnimatePresence, motion } from 'framer-motion';
 
 const Hobbies = () => {
@@ -12,7 +12,7 @@ const Hobbies = () => {
       <Card 
       title="Tech Enthusiast" 
       icon={<AceternityIcon order="Tech"/>}
-      description="I view technology as an invaluable tool, as such I'm constantly learning about new technologies and how they can be applied to different problems. Always seeking to break things down to its fundamental pieces to gain a greater understanding of its underpinnings." 
+      description="I view technology as an invaluable tool, as such I'm constantly learning about new technologies and how they can be applied to different problems. Always seeking to break things down to their fundamental pieces, to gain a greater understanding of its underpinnings." 
       >
         <CanvasRevealEffect
           animationSpeed={2}
@@ -23,7 +23,7 @@ const Hobbies = () => {
       <Card 
       title="Athlete" 
       icon={<AceternityIcon order="Sports"/>}
-      description="As an athlete for most of my life, sports hold a special place in my heart due to the learned discipline, collaborative skills, and dynamic problem solving development they foster. I'm currently a National level Olympic Style Weightlifter, so even now the habits of daily improvement and ability to grind towards a goal is constantly being refined even in my hobbies." 
+      description="As an athlete for most of my life sports hold a special place in my heart due to the learned discipline, collaborative skills, and dynamic problem solving development they foster. I'm currently a National level Olympic Style Weightlifter, so even now the habits of daily improvement and ability to grind towards a goal is constantly being refined even in my hobbies." 
       >
         <CanvasRevealEffect
           animationSpeed={2}
@@ -34,7 +34,7 @@ const Hobbies = () => {
       <Card 
       title="Gamer" 
       icon={<AceternityIcon order="Gaming"/>}
-      description="Growing up with video games fostered a type of collaborative problem solving that I'm forever grateful for, offering another avenue for learning to work towards long term goals in groups, ranging from 3 all the way up to as many as 40 people as a collective for months, even years in some cases." 
+      description="Growing up with video games fostered a type of collaborative problem solving that I'm forever grateful for, offering another avenue for learning to work towards long and short term goals in groups, ranging from 3 all the way up to as many as 40 people as a collective for months, even years in some cases." 
       >
         <CanvasRevealEffect
           animationSpeed={2}

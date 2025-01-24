@@ -19,7 +19,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "Flexible in terms of distributed collaboration",
+        title: "Flexible in terms of cross time zone communications",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -39,7 +39,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "A detail oriented tech enthusiast",
+        title: "A fervent drive for engineering solutions",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -49,7 +49,7 @@ export const gridItems = [
     },
     {
         id: 5,
-        title: "Learning Go while Building an Olympic Weightlifting Exercise Library(RESTful API)",
+        title: "Learning Go while Building an Olympic Weightlifting Exercise API(RESTful)",
         description: "Currently:",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +59,7 @@ export const gridItems = [
     },
     {
         id: 6,
-        title: "Do you want to collaborate?",
+        title: "Looking to Build Something?",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -75,7 +75,7 @@ export const projects = [
         title: "(Full-Stack)Project Management Application",
         des: "A project management app that supports timelines, visualizes tasks and projects, aids in collaboration to drive efficiency across teams.",
         img: "/tm.png",
-        iconLists: ["/next.svg","/Typescript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/PostgresSQL.svg"],
+        iconLists: ["/next.svg","/icons8-typescript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/PostgresSQL.svg"],
         link: "https://github.com/jdav892/pm-exp",
     },
     {
@@ -83,14 +83,14 @@ export const projects = [
         title: "(Full-Stack)Chatter",
         des: "Live chat application, utilizing sockets.io to manage the opening and closing of web sockets between users",
         img: "/chat.png",
-        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/MongoDB.svg"],
+        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/MongoDB.svg"],
         link: "https://chatter-app-1hc0.onrender.com/",
     },
     {
         id: 3,
         title: "(Automation/Backend)NBA Statistics Web Scraping and Reporting",
-        des: "Web crawlers powered by Selenium using Python that email client list with personalized insights",
-        img: "",
+        des: "Web crawlers powered by Selenium using Python scrape NBA stat leaders and give personalized insights to email list",
+        img: "/scrapingexample.png",
         iconLists: ["/Selenium.svg", "/Python.svg", "/Flask.svg", "/Docker.svg"],
         link: "https://github.com/jdav892/nbascripts", 
     },
@@ -99,7 +99,7 @@ export const projects = [
         title: "(Frontend/ML)Sign Language Translations with Tensorflow",
         des: "Converted a Python Tensorflow model to Tensorflow.js, hosted on IBM cloud to be displayed and interacted with using React.js and the canvas element.",
         img: "/aslapp.png",
-        iconLists: ["/Python.svg", "/React.svg", "/Tensorflow.svg"],
+        iconLists: ["/Python.svg", "/React.svg", "/icons8-tensorflow.svg"],
         link: "https://github.com/jdav892/asl-with-tensorflow",
     },
      {
@@ -107,7 +107,7 @@ export const projects = [
         title: "(Frontend)AI Chatbot Landing Page",
         des: "Handcrafted landing page template for an AI chat bot.",
         img: "/bw.png",
-        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Hostinger.svg"],
+        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
         link: "https://brain-wave.zen-testing.com/",
     },
      {
@@ -115,7 +115,7 @@ export const projects = [
         title: "(Frontend)Metaverse Gaming Platform Page",
         des: "Template landing page for a Metaverse gaming platform.",
         img: "/zen.png",
-        iconLists: ["/Vite.js.svg", "/Javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Hostinger.svg"],
+        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
         link: "https://zen-testing.com/",
     },
     
@@ -143,39 +143,6 @@ export const reviews = [
     },
 ];
 
-export const companies = [
-    {
-        id: 1,
-        name: "cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
-    },  
-    {
-        id: 2,
-        name: "appwrite",
-        img: "/app.svg",
-        nameImg: "/app.svg",
-    }, 
-    {
-        id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
-    },
-    {
-        id: 4,
-        name: "stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "docker",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
-    }, 
-
-];
 
 export const experience = [
     {
@@ -208,17 +175,10 @@ export const experience = [
     },
 ]
 
-export const socialMedia = [
+export const socialMedia = 
     {
         id: 1,
         img:"/git.svg",
-    },
-    {
-        id: 2,
-        img: "/twit.svg",
-    },
-    {
-        id: 3,
-        img: "/link.svg",
-    },
-];
+        link:"https://github.com/jdav892"
+    }
+;

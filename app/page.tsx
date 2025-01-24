@@ -1,14 +1,15 @@
 "use client"
 
-import { navItems } from "@/data"
+import { navItems } from "@/app/data"
 
-import Hero from "@/components/Hero"
-import { FloatingNav } from "@/components/ui/FloatingNav"
-import Grid from "@/components/Grid"
-import RecentProjects from "@/components/RecentProjects"
-import Clients from "@/components/Clients"
-import Experience from "@/components/Experience"
-import Hobbies from "@/components/Hobbies"
+import Hero from "@/app/components/Hero"
+import { FloatingNav } from "@/app/components/ui/FloatingNav"
+import Grid from "@/app/components/Grid"
+import RecentProjects from "@/app/components/RecentProjects"
+import Clients from "@/app/components/Clients"
+import Experience from "@/app/components/Experience"
+import Hobbies from "@/app/components/Hobbies"
+import Footer from "@/app/components/Footer"
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Clients />
         <Experience />
         <Hobbies />
+        <Footer />
       </div>
     </main>
   );
