@@ -1,1 +1,1 @@
-Portfolio built using Next.js
+Developer portfolio built using Next.js
