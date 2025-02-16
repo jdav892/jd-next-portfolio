@@ -1,1 +1,1 @@
-WYSIWYG
+Portfolio built using Next.js
