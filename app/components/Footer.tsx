@@ -32,6 +32,16 @@ const Footer = () => {
                 <button 
                     className="w-20 h-20" 
                 >
+                    
+
+                    <a href={socialMedia.link}>
+                        <img 
+                        src={socialMedia.img}
+                        className="absolute" 
+                        height={60}
+                        width={60} 
+                        />
+                    </a>
                     <a href={socialMedia.link}>
                         <img 
                         src={socialMedia.img}

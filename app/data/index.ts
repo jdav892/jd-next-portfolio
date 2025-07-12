@@ -49,7 +49,7 @@ export const gridItems = [
     },
     {
         id: 5,
-        title: "Learning Go while Building an Olympic Weightlifting Exercise API(RESTful)",
+        title: "Building an Olympic Weightlifting Exercise Library(RESTful API)",
         description: "Currently:",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -80,11 +80,11 @@ export const projects = [
     },
     {
         id: 2,
-        title: "(Full-Stack)Chatter",
-        des: "Live chat application, utilizing sockets.io to manage the opening and closing of web sockets between users",
-        img: "/chat.png",
-        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/MongoDB.svg"],
-        link: "https://chatter-app-1hc0.onrender.com/",
+         title: "(Frontend)Metaverse Gaming Platform Page",
+        des: "Template landing page for a Metaverse gaming platform.",
+        img: "/zen.png",
+        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
+        link: "https://zen-testing.com/",
     },
     {
         id: 3,
@@ -112,11 +112,11 @@ export const projects = [
     },
      {
         id: 6,
-        title: "(Frontend)Metaverse Gaming Platform Page",
-        des: "Template landing page for a Metaverse gaming platform.",
-        img: "/zen.png",
-        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
-        link: "https://zen-testing.com/",
+        title: "(Full-Stack)Chatter",
+        des: "Live chat application, utilizing sockets.io to manage the opening and closing of web sockets between users",
+        img: "/chat.png",
+        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/MongoDB.svg"],
+        link: "https://chatter-app-1hc0.onrender.com/",
     },
     
 ];
@@ -161,24 +161,30 @@ export const experience = [
     },
     {
         id: 3,
-        title: "Full Stack Developer",
+        title: "Full Stack Web Developer",
         desc: "Planned and implemented and maintained robust web applications from end to end with scalability and stability in mind.",
         className: "md:col-span-2",
         thumbnail: "/bp.svg",
     },
     {
         id: 4,
-        title: "Web Developer",
-        desc: "Through client outreach, created websites to drive user traffic and prioritized accessibility to push a quality user experience to the forefront.",
+        title: "Open Source Contributer",
+        desc: "",
         className: "md:col-span-2",
         thumbnail: "/webd.svg",
     },
 ]
 
-export const socialMedia = 
+export const socialMedia =
+[
     {
         id: 1,
         img:"/git.svg",
         link:"https://github.com/jdav892"
-    }
-;
+    },
+    {
+        id: 2,
+        img:"/linkedin.svg",
+        link:"https://www.linkedin.com/in/justin-davila-17a353303/"
+    },
+]
