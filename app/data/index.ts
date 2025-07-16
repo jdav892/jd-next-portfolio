@@ -183,8 +183,7 @@ export const socialMedia = [
     },
     {
         id: 2,
-        img:"/linkedin.svg",
-        link:"",
-
+        img: "/linkedin.svg",
+        link:"https://www.linkedin.com/in/justin-davila-17a353303/"
     }
 ]
