@@ -169,22 +169,22 @@ export const experience = [
     {
         id: 4,
         title: "Open Source Contributer",
-        desc: "",
+        desc: "Worked asynchronously with other engineers on enterprise open source solutions.",
         className: "md:col-span-2",
         thumbnail: "/webd.svg",
     },
 ]
 
-export const socialMedia =
-[
+export const socialMedia = [
     {
         id: 1,
         img:"/git.svg",
-        link:"https://github.com/jdav892"
+        link:"https://github.com/jdav892",
     },
     {
         id: 2,
         img:"/linkedin.svg",
-        link:"https://www.linkedin.com/in/justin-davila-17a353303/"
-    },
+        link:"",
+
+    }
 ]

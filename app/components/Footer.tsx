@@ -32,19 +32,21 @@ const Footer = () => {
                 <button 
                     className="w-20 h-20" 
                 >
-                    
-
-                    <a href={socialMedia.link}>
+                    <a href={socialMedia[0].link}>
                         <img 
-                        src={socialMedia.img}
+                        src={socialMedia[0].img}
                         className="absolute" 
                         height={60}
                         width={60} 
                         />
                     </a>
-                    <a href={socialMedia.link}>
+                </button>
+                <button 
+                    className="w-20 h-20" 
+                >
+                    <a href={socialMedia[1].link}>
                         <img 
-                        src={socialMedia.img}
+                        src={socialMedia[1].img}
                         className="absolute" 
                         height={60}
                         width={60} 
