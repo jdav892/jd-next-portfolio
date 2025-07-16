@@ -28,31 +28,20 @@ const Footer = () => {
         </div>
         <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
             <p className="md:text-base text-sm md:font-normal font-light">Copyright © 2025 Justin Davila</p>
-            <div className="flex items-center md:gap-3 gap-6">
-                <button 
-                    className="w-20 h-20" 
-                >
-                    <a href={socialMedia[0].link}>
+            <div className="flex items-center md:gap-3 gap-6 z-10">
+                {socialMedia.map(({id, img, link}) => (
+                    <a 
+                    key={id}
+                    href={link}
+                       >
                         <img 
-                        src={socialMedia[0].img}
-                        className="absolute" 
-                        height={60}
+                        src={img}
+                        alt="social icon" 
                         width={60} 
+                        height={60}
                         />
                     </a>
-                </button>
-                <button 
-                    className="w-20 h-20" 
-                >
-                    <a href={socialMedia[1].link}>
-                        <img 
-                        src={socialMedia[1].img}
-                        className="absolute" 
-                        height={60}
-                        width={60} 
-                        />
-                    </a>
-                </button>
+                ))}
             </div>
         </div>
     </footer>
