@@ -13,7 +13,7 @@ const Clients = () => {
             </span>
         </h1>
         <div className="flex flex-col items-center">
-            <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden pt-12">   
+            <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden pt-12 mb-10 md:mb-0">   
                 <InfiniteMovingCards 
                     items={reviews}
                     direction="right"

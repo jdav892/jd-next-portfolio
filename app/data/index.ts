@@ -1,25 +1,25 @@
 export const navItems = [
     {name: "Home", link: "#home"},
+    {name: "Experience", link: "#experience"},
     {name: "Projects", link: "#projects"},
     {name: "Reviews", link: "#reviews"},
-    {name: "Bio", link: "#bio"},
     {name: "Contact", link: "#contact"},
 ];
 
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize collaboration to foster open lines of communication",
+        title: "Passionate and eager to collaborate towards optimal solutions",
         description: "",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "/bg.png",
+        img: "/chatss.png",
         spareImg: "",
     },
     {
         id: 2,
-        title: "Flexible in terms of cross time zone communications",
+        title: "Experienced with distributed communications",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -29,8 +29,8 @@ export const gridItems = [
     },
     {
         id: 3,
-        title: "My tech stack:",
-        description: "I'm constantly learning.",
+        title: "Current Stack:",
+        description: "Always learning",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
@@ -39,7 +39,7 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "A fervent drive for engineering solutions",
+        title: "Driven towards improvement",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
@@ -70,13 +70,13 @@ export const gridItems = [
 ];
 
 export const projects = [
-    {
+     {
         id: 1,
-        title: "(Full-Stack)Project Management Application",
-        des: "A project management app that supports timelines, visualizes tasks and projects, aids in collaboration to drive efficiency across teams.",
-        img: "/tm.png",
-        iconLists: ["/next.svg","/icons8-typescript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/PostgresSQL.svg"],
-        link: "https://github.com/jdav892/pm-exp",
+        title: "(Frontend)AI Chatbot Landing Page",
+        des: "Handcrafted landing page template for an AI chat bot.",
+        img: "/bw.png",
+        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
+        link: "https://brain-wave.zen-testing.com/",
     },
     {
         id: 2,
@@ -94,7 +94,7 @@ export const projects = [
         iconLists: ["/Selenium.svg", "/Python.svg", "/Flask.svg", "/Docker.svg"],
         link: "https://github.com/jdav892/nbascripts", 
     },
-     {
+    {
         id: 4,
         title: "(Frontend/ML)Sign Language Translations with Tensorflow",
         des: "Converted a Python Tensorflow model to Tensorflow.js, hosted on IBM cloud to be displayed and interacted with using React.js and the canvas element.",
@@ -102,15 +102,15 @@ export const projects = [
         iconLists: ["/Python.svg", "/React.svg", "/icons8-tensorflow.svg"],
         link: "https://github.com/jdav892/asl-with-tensorflow",
     },
-     {
+    {
         id: 5,
-        title: "(Frontend)AI Chatbot Landing Page",
-        des: "Handcrafted landing page template for an AI chat bot.",
-        img: "/bw.png",
-        iconLists: ["/Vite.js.svg", "/icons8-javascript.svg", "/React.svg", "/Tailwind CSS.svg"],
-        link: "https://brain-wave.zen-testing.com/",
+        title: "(Full-Stack)Project Management Application",
+        des: "A project management app that supports timelines, visualizes tasks and projects, aids in collaboration to drive efficiency across teams.",
+        img: "/tm.png",
+        iconLists: ["/next.svg","/icons8-typescript.svg", "/React.svg", "/Tailwind CSS.svg", "/Node.js.svg", "/Express.svg", "/PostgresSQL.svg"],
+        link: "https://github.com/jdav892/pm-exp",
     },
-     {
+    {
         id: 6,
         title: "(Full-Stack)Chatter",
         des: "Live chat application, utilizing sockets.io to manage the opening and closing of web sockets between users",
@@ -125,7 +125,7 @@ export const projects = [
 export const reviews = [
     {
         quote:
-        "Through our work on a cross platform image compression solution, Justin displayed a type of determined and self starting attitude which can't be ignored. For any company seeking a developer determined to find solutions to their problems, I suggest reaching out to Justin about potential opportunities.",
+        "Through his work submitting patches and collaborating on tasks in our codebase, Justin displayed a type of determined and self starting attitude which can't be ignored. For any company seeking a developer determined to find solutions to their problems, I suggest reaching out to Justin about potential opportunities.",
         name: "Alex Hochheiden",
         title: "Software Engineer - Mozilla"
     },
@@ -137,7 +137,7 @@ export const reviews = [
     },
      {
         quote:
-        "Collaborating with Justin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Justin's enthusiasm for every facet of development truly stands out. If you're seeking a driven and passionate developer, Justin is that developer.",
+        "Collaborating with Justin was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Justin's enthusiasm for every facet of development truly stands out. If you're seeking a driven and passionate developer, Justin is your guy.",
         name: "Darshay Blount",
         title: "Data Analyst - Disney"
     },
@@ -155,21 +155,21 @@ export const experience = [
     {
         id: 2,
         title: "Backend Engineer",
-        desc: "Created REST API endpoints, and engineered systems of web crawlers to feed databases for analysis and to develop tooling around.",
+        desc: "Created REST API endpoints, and engineered systems of web crawlers to feed databases for analysis, and develop tooling around.",
         className: "md:col-span-2",
         thumbnail: "/network.svg",
     },
     {
         id: 3,
         title: "Full Stack Web Developer",
-        desc: "Planned and implemented and maintained robust web applications from end to end with scalability and stability in mind.",
+        desc: "Planned, implemented and maintained robust web applications from end to end with scalability, and stability in mind.",
         className: "md:col-span-2",
         thumbnail: "/bp.svg",
     },
     {
         id: 4,
         title: "Open Source Contributer",
-        desc: "Worked asynchronously with other engineers on enterprise open source solutions.",
+        desc: "Worked asynchronously with other engineers on enterprise scale open source solutions, submitting code for review through proprietary CI/CD.",
         className: "md:col-span-2",
         thumbnail: "/webd.svg",
     },
