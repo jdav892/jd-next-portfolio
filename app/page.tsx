@@ -8,7 +8,6 @@ import Grid from "@/app/components/Grid"
 import RecentProjects from "@/app/components/RecentProjects"
 import Clients from "@/app/components/Clients"
 import Experience from "@/app/components/Experience"
-import Hobbies from "@/app/components/Hobbies"
 import Footer from "@/app/components/Footer"
 
 export default function Home() {
