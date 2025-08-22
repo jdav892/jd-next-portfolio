@@ -28,7 +28,7 @@ const Footer = () => {
             </a> 
         </div>
         <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-            <p className="md:text-base text-sm md:font-normal font-light">Copyright © 2025 Justin Davila</p>
+            <p className="md:text-base text-sm md:font-normal font-light">Copyright ©{new Date().getFullYear()} Justin Davila</p>
             <div className="flex items-center md:gap-3 gap-6 z-10 mt-5 md:mt-0">
                 {socialMedia.map(({id, img, link}) => (
                     <a 

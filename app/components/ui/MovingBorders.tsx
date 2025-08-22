@@ -18,6 +18,7 @@ export function Button({
   borderClassName,
   duration,
   className,
+  classNames,
   ...otherProps
 }: {
   borderRadius?: string;
@@ -27,6 +28,7 @@ export function Button({
   borderClassName?: string;
   duration?: number;
   className?: string;
+  classNames?: string;
   [key: string]: any;
 }) {
   return (
